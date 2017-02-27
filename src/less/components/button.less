@@ -1,0 +1,32 @@
+.av-button {
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.2,.5,.7,1);
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 5px 8px;
+  background: red;
+  display: inline-block;
+  color: #666666;
+  background: #FFFFFF;
+  cursor: pointer;
+  border-radius: 2px;
+  position: relative;
+  
+  &:hover {
+    color: #0073b1;
+    background: #B8D2E2;
+  }
+  
+  &:active {
+    background: lighten(#B8D2E2, 4%);
+  }
+  
+  i {
+    font-size: 16px;
+    position: relative;
+    top: 3px;
+  }
+}

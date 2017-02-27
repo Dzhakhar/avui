@@ -1,0 +1,28 @@
+.av-segment {
+  &:extend(.av-shadow);
+  min-height: 1px;
+  background: @colors-white;
+  
+  .av-segment__attached {
+    border-bottom: @border;
+    padding: @padding / 2 @padding;
+    
+    font-weight: 400;
+    font-size: 14px;
+    
+    strong {
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+  
+  .av-segment__content {
+    margin: 0 @padding;
+    border-bottom: @border;
+    padding: @padding 0;
+  }
+  
+  .av-segment__controls {
+    padding: @padding / 2 @padding;
+  }
+}
